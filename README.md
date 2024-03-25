@@ -23,35 +23,33 @@ Make sure you have the following installed:
 
 1. Clone the repository:
 
-   git clone [(https://github.com/subiksha08/ProjectManagement.git)]
+   git clone [(https://github.com/subiksha08/B9IS109-ProjectManager.git)]
 
 2. Navigate to the project directory:
 
-cd project-management
+cd B9IS109-ProjectManager
 
-3.Install dependencies for Backend:
+3. Navigate to the ProjectManagement-Client directory:
 
-npm install
+cd ProjectManagement-Client
 
-4.Set up the MongoDB database.
+If you don't have angular, Install angular globally using npm install -g @angular/cli
 
-5.Start the application:
+4.Start the client application:
+
+"npm start"
+
+The application client will be accessible at http://127.0.0.1/project/add.
+
+
+5.Set up the MongoDB database.
+
+6.Start the application:
 
 npm start
 
 The application server will be accessible at http://localhost:3000
 
-6.Install dependencies for Frontend:
-
-npm install
-
-If you don't have angular, Install angular globally using npm install -g @angular/cli
-
-7.Start the application:
-
-ng serve
-
-The application client will be accessible at http://localhost:4200.
 
 ## Project Structure
 
