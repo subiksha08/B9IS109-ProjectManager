@@ -17,7 +17,7 @@ import { NgbDateStruct } from '@ng-bootstrap/ng-bootstrap';
 export class CreateComponent implements OnInit {
 
   Projects: Project[];
-  projectForm: FormGroup;
+  projectForm!: FormGroup;
 
   setDates: boolean;
   userAction: string;
